@@ -28,7 +28,7 @@ style_mono_light(base_color = '#1c5253',
 
 # CONFIGURAÇÃO PADRÃO CHUNK: ----
 knitr::opts_chunk$set(echo = F,
-                      cache = T,
+                      cache = F,
                       results = 'asis', 
                       warning = F, 
                       message = F, 
